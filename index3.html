@@ -7,8 +7,13 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 	</script>
+	<link rel="stylesheet/less" type="text/css" href="styles.less" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--<script src="https://cdn.jsdelivr.net/npm/less" ></script>-->
 </head>
 <body>
+	<!--Шапка сайта-->
 	<header>
 		<div class="container">
 			<div class="row">
@@ -26,6 +31,7 @@
 			</div>
 		</div>
 	</header>
+	<!--Навигация сайта-->
 	<nav>
 		<div class="container">
 			<div class="row">
@@ -52,6 +58,7 @@
 			</div>
 		</div>
 	</nav>
+	<!--Основное сайта-->
 	<section id="main">
 		<div class="container">
 			<div class="row">
@@ -61,10 +68,66 @@
 				<h3>Закажите выезд замерщика на дом. <span>Это бесплатно!</span></h3>
 			</div>
 			<div class="row">
+				<div class="col-sm-3">
+				</div>	
 				<button>Вызвать замерщика</button>
 				<button>Выбрать жалюзи</button>
 			</div>
+			<!--<center>-->
+ 				<form  action="index.html">
+  					<input type="button" value="Вызвать замерщика" onclick="history.back()" />
+  					<input type="submit" value="Выбрать жалюзи"/>
+ 				</form>
+			<!--</center>-->
 		</div>
+	</section>
+	<section id="types">
+		<div class="container">
+			<div class="row">
+				<div class="section_header text-center">
+					<h2>Виды Жалюзи</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-3">
+					<div class="card">
+						<img src="img/types-1" alt="Горизонтальные жалюзи" class="img-responsive center-block">
+						<h4>Горизонтальные жалюзи</h4>
+						<br>
+						<button data-toggle="modal" href="#">Подробнее</button>
+						<button data-toggle="modal" href="#">Заказать</button>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card">
+						<img src="img/types-2" alt="Вертикальные жалюзи" class="img-responsive center-block">
+						<h4>Вертикальные жалюзи</h4>
+						<br>
+						<button data-toggle="modal" href="#">Подробнее</button>
+						<button data-toggle="modal" href="#">Заказать</button>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card">
+						<img src="img/types-3" alt="Рулонные жалюзи" class="img-responsive center-block">
+						<h4>Рулонные жалюзи</h4>
+						<br>
+						<button data-toggle="modal" href="#">Подробнее</button>
+						<button data-toggle="modal" href="#">Заказать</button>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card">
+						<img src="img/types-4" alt="Жалюзи плиссе" class="img-responsive center-block">
+						<h4>Жалюзи плиссе</h4>
+						<br>
+						<button data-toggle="modal" href="#">Подробнее</button>
+						<button data-toggle="modal" href="#">Заказать</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
 	<!--<div class="row">
 <div class="col-md-7"><input type="text" placeholder="Как вас зовут?"></div>
 <div class="col-md-5"><input type="text" placeholder="E-mail"></div>                          
@@ -77,7 +140,7 @@
 <div class="col-md-5"><input type="text" placeholder="E-mail"></div>
 <div class="col-md-12"><button>Отправить</button></div>
 </div>-->
-	</section>
 	
+
 </body>
 </html>
