@@ -1,0 +1,12 @@
+div {
+  background-color: white;
+}
+div p {
+  padding: 0 20px;
+}
+div p a {
+  color: red;
+}
+p {
+  padding: 20px;
+}
